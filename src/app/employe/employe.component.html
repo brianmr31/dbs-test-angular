@@ -1,0 +1,18 @@
+
+<div class="container" >
+    <div class="d-flex justify-content-between">
+        <div class="">
+            <h2 (click)="hello()" >Hello {{ msg }}</h2> 
+            <span (click)="getLocation()">
+                count: {{count}}
+            </span>
+        </div>
+        <div class="">
+            <button [routerLink]="['/addemploye']">
+                +
+            </button>
+        </div>
+    </div>
+    <br>
+    <list-employe/> 
+</div>
